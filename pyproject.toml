@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "Pyramem"
+version = "0.1.0"
+description = "TBD"
+authors = ["leo4life <leo.li@nyu.edu>"]
+readme = "README.md"
+packages = [{include = "pyramem"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.20.0"
+openai = "^0.27.2"
+python-dotenv = "^0.21.1"
+pydantic = "^1.10.5"
+tenacity = "^8.2.1"
+tiktoken = "^0.2.0"
+numpy = "^1.24.2"
+docx2txt = "^0.8"
+PyPDF2 = "^3.0.1"
+python-pptx = "^0.6.21"
+python-multipart = "^0.0.6"
+arrow = "^1.2.3"
+pinecone-client = "^2.1.0"
+weaviate-client = "^3.12.0"
+pyyaml = "^6.0"
+langchain = "^0.0.202"
+chromadb = "^0.3.26"
+pytest = "^7.3.2"
+
+[tool.poetry.group.dev.dependencies]
+httpx = "^0.23.3"
+pytest = "^7.2.1"
+pytest-cov = "^4.0.0"
+pytest-asyncio = "^0.20.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
