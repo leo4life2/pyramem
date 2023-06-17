@@ -152,3 +152,5 @@ cython_debug/
 
 # macOS .DS_Store files
 .DS_Store
+
+.chroma/
